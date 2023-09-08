@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/5877e762d2.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+           $.getJSON("data.json", function(data){
+            $.each(data.RedComercios, function(key, value){
+                $("#comercio").append($('<option>', {
+                    value: value.Nombre ,
+                    text: value.Nombre
+                }))
+                if($("#zona").find('option[value="' + value.ZONA + '"]' ).length == 0){
+                    $("#zona").append($('<option>', {
+                        value: value.ZONA,
+                        text: value.ZONA
+                    }))
+                }
+                if ($('#provincia').find('option[value="' + value.PROVINCIA + '"]').length == 0) {
+                    $("#provincia").append($('<option>',{
+                        value : value.PROVINCIA,
+                        text: value.PROVINCIA
+                    }))
+                }
+                if($("#panama").find('option[value="' + value.PAIS + '"]').length == 0){
+                    $("#panama").append($('<option>',{
+                        value : value.PAIS,
+                        text: value.PAIS
+                    }))
+                }
+                if($("#ciudad").find('option[value="'+ value.DISTRITO + '"]').length == 0){
+                    $("#ciudad").append($('<option>',{
+                        value : value.DISTRITO,
+                        text : value.DISTRITO
+                    }))
+                }
+                if($("#productos").find('option[value="'+ value.CORREGIMIENTO + '"]').length == 0 && value.CORREGIMIENTO != undefined){
+                    $("#productos").append($('<option>',{
+                        value : value.CORREGIMIENTO,
+                        text : value.CORREGIMIENTO
+                    }))
+                }
+            })
+           })
+           $("#btn-buscar").click(function(){
+            $("#record1").empty();
+            let panamaField = $("#panama").val();
+            let provinceField = $("#provincia").val();
+            let comercioField = $("#comercio").val();
+            let zonaField = $("#zona").val();
+            let ciudadField = $("#ciudad").val();
+            let productField = $("#productos").val();
+            if($("#panama").val()!="" && $("#provincia").val()=="" && $("#ciudad").val()=='' && $("#zona").val()=="" && $("#productos").val() == "" && $("#comercio").val() == "" ){
+                $.getJSON("data.json",function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.PAIS == panamaField){
+                        var html = '<div class="col-md-4 mt-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html)
+                    }
+                })
+            })
+            }
+            else if($("#provincia").val()!="" && $("#ciudad").val()=='' && $("#zona").val()=="" && $("#productos").val() == "" && $("#comercio").val() == "" ){
+                $.getJSON("data.json",function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.PROVINCIA == provinceField){
+                        var html = '<div class="col-md-4 mt-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html)
+                    }
+                })
+            })
+            }
+           else if($("#provincia").val()=="" && $("#ciudad").val()=='' && $("#zona").val()=="" && $("#productos").val() == "" && $("#comercio").val() != "" ){
+                $.getJSON("data.json",function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.Nombre == comercioField){
+                        var html = '<div class="col-md-4 mt-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html)
+                    }
+                })
+            })
+            }
+            else if($("#provincia").val()!="" && $("#ciudad").val()=='' && $("#zona").val()=="" && $("#productos").val() == "" && $("#comercio").val() != ""){
+                $.getJSON("data.json",function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.Nombre == comercioField && value.PROVINCIA == provinceField){
+                        var html = '<div class="col-md-4 mt-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html)
+                    }
+                })
+            })
+            }
+            else if($("#provincia").val()!="" && $("#ciudad").val()=='' && $("#zona").val()!="" && $("#productos").val() == "" && $("#comercio").val() != ""){      
+                $.getJSON("data.json",function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.Nombre == comercioField && value.PROVINCIA == provinceField && value.ZONA == zonaField){
+                        var html = '<div class="col-md-4 mt-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html);
+                    }
+                })
+            })
+            }
+            else if($("#provincia").val()!="" && $("#ciudad").val()!='' && $("#zona").val()!="" && $("#productos").val() == "" && $("#comercio").val() != ""){
+                $.getJSON("data.json",function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.Nombre == comercioField && value.PROVINCIA == provinceField && value.DISTRITO == ciudadField && value.ZONA == zonaField){
+                        var html = '<div class="col-md-4 mt-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html);
+                    }
+                })
+            })
+            }
+            else if($("#provincia").val()!="" && $("#ciudad").val()!='' && $("#zona").val()!="" && $("#productos").val() != "" && $("#comercio").val() != ""){
+                $.getJSON("data.json",function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.Nombre == comercioField && value.PROVINCIA == provinceField && value.DISTRITO == ciudadField && value.ZONA == zonaField && value.CORREGIMIENTO == productField){
+                        var html = '<div class="col-md-4 mt-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html);
+                    }
+                })
+            })
+            }
+            else if($("#ciudad").val() != '' && $("#provincia").val()=="" && $("#zona").val()=="" && $("#productos").val() == "" && $("#comercio").val() == "" ){
+                $.getJSON("data.json",function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.DISTRITO == ciudadField){
+                        var html = '<div class="col-md-4 mt-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html);
+                    }
+                })
+            })
+        }
+        else if($("#ciudad").val() == '' && $("#provincia").val()=="" && $("#zona").val()=="" && $("#productos").val() != "" && $("#comercio").val() == ""){
+                $.getJSON("data.json",function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.CORREGIMIENTO == productField){
+                        var html = '<div class="col-md-4 mt-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html);
+                    }
+                })
+            })
+        }
+        else if($("#ciudad").val() == '' && $("#provincia").val()=="" && $("#zona").val()!="" && $("#productos").val() == "" && $("#comercio").val() == ""){
+                $.getJSON("data.json",function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.ZONA == zonaField){
+                        var html = '<div class="col-md-4 mt-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html);
+                    }
+                })
+            })
+        }
+           else if($("#provincia").val()!="" && $("#ciudad").val()!='' && $("#zona").val()=="" && $("#productos").val() == "" && $("#comercio").val() == ""){
+            $.getJSON("data.json",function(data){
+                $(data.RedComercios).filter(function(key, value){
+                  if(value.DISTRITO == ciudadField && value.PROVINCIA == provinceField){
+                    var html = '<div class="col-md-4 mt-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html);
+                  }
+                })
+            })
+            }
+            else if($("#zona").val()!="" && $("#ciudad").val()!="" && $("#provincia").val()!="" && $("#productos").val() == ""  && $("#comercio").val() == ""){
+                $.getJSON("data.json", function(data){
+                    $(data.RedComercios).filter(function(key, value){
+                        if(value.DISTRITO == ciudadField && value.PROVINCIA == provinceField && value.ZONA == zonaField){
+                            var html = '<div class="col-md-4 mt-lg-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-lg-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html);
+                        }
+                    })
+                })
+            }
+            else if($("#zona").val()!="" && $("#ciudad").val()!="" && $("#provincia").val()!="" && $("#productos").val() != ""  && $("#comercio").val() == ""){
+                $.getJSON("data.json", function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.PROVINCIA == provinceField && value.DISTRITO == ciudadField && value.ZONA == zonaField && value.CORREGIMIENTO == productField){
+                        var html = '<div class="col-md-4 mt-lg-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-lg-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html);
+                    }
+                })
+            })
+           }
+           else if($("#zona").val()!="" && $("#ciudad").val()!="" && $("#provincia").val()=="" && $("#productos").val() == ""  && $("#comercio").val() == ""){
+                $.getJSON("data.json", function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.ZONA == zonaField && value.DISTRITO == ciudadField ){
+                        var html = '<div class="col-md-4 mt-lg-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-lg-4">' +
+                            '<i class="fa-regular fa-credit-card-blank"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html);
+                    }
+                })
+             })
+           }
+           else if($("#zona").val()=="" && $("#ciudad").val()=="" && $("#provincia").val()!="" && $("#productos").val() != ""  && $("#comercio").val() == ""){
+                $.getJSON("data.json", function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.PROVINCIA == provinceField && value.CORREGIMIENTO == productField ){
+                        var html = '<div class="col-md-4 mt-lg-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-lg-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html);
+                    }
+                })
+             })
+           }
+           else if($("#zona").val()!="" && $("#ciudad").val()=="" && $("#provincia").val()!="" && $("#productos").val() == ""  && $("#comercio").val() == ""){
+                $.getJSON("data.json", function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.ZONA == zonaField && value.PROVINCIA == provinceField){
+                        var html = '<div class="col-md-4 mt-lg-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-lg-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html);
+                    }
+                })
+            })
+        }
+        else if($("#zona").val()=="" && $("#ciudad").val()!="" && $("#provincia").val()=="" && $("#productos").val() != ""  && $("#comercio").val() == ""){
+                $.getJSON("data.json", function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.DISTRITO == ciudadField && value.CORREGIMIENTO == productField){
+                        var html = '<div class="col-md-4 mt-lg-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-lg-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html);
+                    }
+                })
+            })
+        }
+        else if($("#comercio").val()!="" && $("#ciudad").val()!="" && $("#zona").val()=="" && $("#provincia").val()=="" && $("#productos").val() == ""){
+            $.getJSON("data.json", function(data){
+                $(data.RedComercios).filter(function(key, value){
+                    if(value.Nombre == comercioField && value.DISTRITO == ciudadField){
+                        var html = '<div class="col-md-4 mt-lg-4">' +
+                            '<div class="record-description">' +
+                                '<h4 class="record-heading">' + value.Nombre + '</h4>'+
+                                '<p class="record-details">' + value.ZONA +  '</p>' +
+                                '<p class="record-details">' + value.PROVINCIA + ', ' + value.DISTRITO + ', '+ value.CORREGIMIENTO +'</p>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-md-center mt-5">' +
+                            '<p class="record-details">' + '301-0465' +  '</p>' +
+                            '<p class="record-details">' + '6945-8722' +  '</p>' +
+                        '</div>' +
+                        '<div class="col-md-4 mt-lg-4">' +
+                            '<i class="fa-solid fa-qrcode float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="fa-solid fa-keyboard float-right" style="font-size: 2.3em;padding: 10px;color: lightgray; margin-top: 19px;"></i>' +
+                            '<i class="far fa-credit-card  float-right" style="font-size: 2em;padding: 10px;color: lightgray; margin-top: 20px;"></i>' +
+                        '</div>' + 
+                        '<div class="divider divider-color mt-md-5"></div>'
+                         $("#record1").append(html);
+                    }
+                })
+            })
+        }
+           else{
+            var html = '<div class="col-md-12 mt-lg-4">' +
+                            '<div class="record-description">' +
+                                '<h2 class="record-heading">Status: Record Not Found. Please select the mentioned fields</h2>'+
+                            '</div>'+
+                        '</div>'
+            $("#record1").append(html);     
+           }
+          })
+          $("#provincia").change(function(){
+                if($("#record1").is(":empty")){
+                   
+                }
+                else{
+                    $("#record1").empty()
+                }
+          })
+          $("#comercio").change(function(){
+                if($("#record1").is(":empty")){
+                   
+                }
+                else{
+                    $("#record1").empty()
+                }
+          })
+          $("#zona").change(function(){
+                if($("#record1").is(":empty")){
+                   
+                }
+                else{
+                    $("#record1").empty()
+                }
+          })
+          $("#ciudad").change(function(){
+                if($("#record1").is(":empty")){
+                   
+                }
+                else{
+                    $("#record1").empty()
+                }
+          })
+          $("#productos").change(function(){
+                if($("#record1").is(":empty")){
+                   
+                }
+                else{
+                    $("#record1").empty()
+                }
+          })
+        })
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="img-capsule"></div>
+    <div class="img-capsule2"></div>
+    <div class="img-capsule3"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" class="img img-fluid logo" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item pl-md-5">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item pl-md-5">
+              <a class="nav-link" href="#">Funcionalidad</a>
+            </li>
+            <li class="nav-item pl-md-5">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            <li class="nav-item pl-md-5">
+              <a class="nav-link" href="#">Beneficios y Promociones </a>
+            </li>
+            <li class="nav-item pl-md-5">
+                <a class="nav-link" href="#">Buscar </a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+      <section id="header">
+        <div class="overlay">
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="" class="label">Tipo Comercio</label>
+                                <select name="comercio" id="comercio" class="form-control">
+                                    <option value="">Seleccion</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="label">Seleccione Provincia</label>
+                                <select name="comercio" id="provincia" class="form-control">
+                                    <option value="" style="width: 50px;">Seleccion</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="label">Seleccione Zona</label>
+                                <select name="comercio" id="zona" class="form-control">
+                                    <option value="">Seleccion</option>
+                                </select>
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="" class="label">Panama</label>
+                            <select name="panama" id="panama" class="form-control">
+                                <option value="">Seleccion</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="label">Seleccione Ciudad</label>
+                            <select name="comercio" id="ciudad" class="form-control">
+                                <option value="">Seleccion</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="label">Todos los productos</label>
+                            <select name="comercio" id="productos" class="form-control">
+                                <option value="">Seleccion</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+                </div>
+            </div>
+            <div class="container-fluid p-0 mt-5">
+                <div class="buscar-overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mt-3">
+                                    <label for="" class="label">Buscar</label>
+                                    <input type="text" class="form-control" id="buscar">
+                                </div>
+                                <button type="button" id="btn-buscar" class="btn btn-primary mt-5 ml-md-0 ml-3 mb-5">BUSCAR</button>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group" style="margin-top: 56px;">
+                                    <span class="icon">?</span>
+                                    <span class="escriba">Escriba el nombre del comerciante para buscar</span>
+                                </div>
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section id="main-body">
+        <div class="container">
+            <div class="row mt-5 p-md-4" id="record1"></div>
+        </div>
+      </section>
+      <footer>
+        <div class="container-fluid p-0 mt-5">
+            <div class="footer-overlay mt-5">
+                <div class="container mt-5">
+                    <div class="row pt-5 pb-5 px-3 mt-5">
+                        <div class="col-md-4 col-lg-3">
+                            <h3 class="footer-heading">Contáctanos</h3>
+                            <label for="" class="contact-details mt-xl-4 pt-xl-2 mt-md-3">Uamanos al: 800-2022</label>
+                            <label for="" class="contact-details">Escribenos al: <span class="footer-links">tarjetas@daimvirtual.com</span></label>
+                        </div>
+                        <div class="col-md-4 col-lg-3">
+                            <span class="footer-links links-adjust mt-md-5 pt-md-5 mt-0 pt-0">Politicos de Pricacidad</span>
+                        </div>
+                        <div class="col-md-4 col-lg-3">
+                            <img src="images/header-logo.png" class="img img-fluid footer-img header-logo-adjust" alt="" >
+                            <span class="footer-links contact-adjust mt-md-5 pt-md-5 mt-0 pt-0">+507 6999-1288</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="divider "></div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <p class="footer-copywrite">Todos los derechos reservados CROEM PANAMA INC 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,1425 @@
+{
+    "RedComercios": [
+        {
+            "Nombre": "Mini Super Pacifico 1",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Herrera",
+            "DISTRITO": "Chitré",
+            "CORREGIMIENTO": "La Arena",
+            "ZONA": "Diagonal Al Cementerio/Herrera/La Arena/Carretera Nacional"
+        },
+        {
+            "Nombre": "Super Mercado Te Conviene",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Chilibre",
+            "ZONA": "Unión Veraguenze/Panamá/Chilibre/Vía Boyd Rooseveld"
+        },
+        {
+            "Nombre": "Mini Super Dely Market",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "San Juan",
+            "ZONA": "Valle La Unión/Colón/San Juan/Calle Principal"
+        },
+        {
+            "Nombre": "Tinda La Fula",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Alcalde Díaz",
+            "ZONA": "Colina De Las Cumbres/Panamá/Alcalde Díaz"
+        },
+        {
+            "Nombre": "Mini Super Mi Casa Real",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Panamá",
+            "ZONA": "Casa Real/Panamá/Las Cumbres"
+        },
+        {
+            "Nombre": "Supermercado Legumbres Y Carnes",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Sabanita",
+            "ZONA": "Entrada De La Barriada El Maestro/Colón/Sabanitas/Al Lado De ENSA"
+        },
+        {
+            "Nombre": "Mini Super Las Perlas De Pilon I",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Puerto Pilón",
+            "ZONA": "Las Perlas De Pilón/Colón/Puerto Pilón/Calle Principal"
+        },
+        {
+            "Nombre": "Super Mercado Plaza Pacifico",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Arraiján",
+            "CORREGIMIENTO": "Arraiján",
+            "ZONA": "Veracruz/Panamá Oeste/Arraiján/Principal"
+        },
+        {
+            "Nombre": "Supermercado Centro Dólar",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Chiriquí",
+            "DISTRITO": "David",
+            "CORREGIMIENTO": "Chiriquí",
+            "ZONA": "David/Chiriquí/David/Ave. 4ta Entre Calle C Y D Norte"
+        },
+        {
+            "Nombre": "Mini Super Jeny No. 2",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Barrio Sur",
+            "ZONA": "Federico Boyd/Colón/Barrio Sur/Colón"
+        },
+        {
+            "Nombre": "Abt. Cancun",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "San Juan",
+            "ZONA": "San Juan/Colón/Principal"
+        },
+        {
+            "Nombre": "Abarroteria E.Y.E.",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Sabanitas",
+            "ZONA": "Santa Rita Arriba /Colón/Sabanitas/Principal"
+        },
+        {
+            "Nombre": "Mini Super Agua Buena",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Chilibre",
+            "ZONA": "Agua Buena/ Panamá/Chilibre"
+        },
+        {
+            "Nombre": "Mini Super Felix",
+            "PAIS": "Panamá",
+            "PROVINCIA":"Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Amelia Denis de Yzaca",
+            "ZONA": "Los Andes/Panamá/Amelia Denis De Ycaza/Calle Circunvalación"
+        },
+        {
+            "Nombre": "Comisariato Santa Isabel",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Barrio Norte",
+            "ZONA": "Santa Isabel/Colón/Barrio Norte"
+        },
+        {
+            "Nombre": "Abarroteria Kamila",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Pacora",
+            "ZONA": "Pacora/Panamá/Pacora"
+        },
+        {
+            "Nombre": "Mini Super 2009",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Arraiján",
+            "CORREGIMIENTO": "Vista Alegre",
+            "ZONA": "Vacamonte/Panamá Oeste/Arraiján Vista Alegre Calle 4ta"
+        },
+        {
+            "Nombre": "Mini Super Tony",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Cristóbal",
+            "ZONA": "Altos De Los Lagos/Colón/Cristobal/Principal"
+        },
+        {
+            "Nombre": "Supermercado La Pradera Hou",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Arraiján",
+            "CORREGIMIENTO": "Arraiján",
+            "ZONA": "Llano Largo/Panamá Oeste/Playa Leona/Vía Principal Calle Larga"
+        },
+        {
+            "Nombre": "Super Smart",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Capira",
+            "CORREGIMIENTO": "Capira",
+            "ZONA": "Vía Interamericana/Panamá Oeste/Capira Cabecera/Calle Principal"
+        },
+        {
+            "Nombre": "Mini Super Lisi",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Chilibre",
+            "ZONA": "Villa Unida/Panamá/Chilibre/Calle Ipe"
+        },
+        {
+            "Nombre": "Supermercado El Progreso*",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "La Chorrera",
+            "CORREGIMIENTO": "Feuille",
+            "ZONA": "El Espino/Panamá Oeste/Feuillet/Principal"
+        },
+        {
+            "Nombre": "Mini Super Fung",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "Omar Torrijos",
+            "ZONA": "Entrada De San Idisidro/Panamá/Omar Torrijos/Calle Principal"
+        },
+        {
+            "Nombre": "Minisuper Maikol",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "San Juan",
+            "ZONA": "El 20/Colón/San Juan/Calle Principal"
+        },
+        {
+            "Nombre": "Supermercado El Parcerito",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "San Juan",
+            "ZONA": "Nuevo Vigia/Colón/San Juan/Vía Principal"
+        },
+        {
+            "Nombre": "Mini Super Melissa You",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Cativá",
+            "ZONA": "Villa Guadalupe Sector C/Colón/Cativá"
+        },
+        {
+            "Nombre": "Mercadito Ana Rosa",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Pueblo Nuevo",
+            "ZONA": "Vía España Urbanización Anapolis/Las Sabanas/Calle Del IPA/Local H-4/Pueblo Nuevo"
+        },
+        {
+            "Nombre": "Mini Super 188",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Caimitillo",
+            "ZONA": "La Cabima San Lorenzo/Panamá/Caimitillo/Principal"
+        },
+        {
+            "Nombre": "Mini Super Luigi",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "San Juan",
+            "ZONA": "Gatuncillo/Colón/San Juan/Principal"
+        },
+        {
+            "Nombre": "Abarroteria Don Bruno",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "San Juan",
+            "ZONA": "Nvo San Juan/Colón/Principañ"
+        },
+        {
+            "Nombre": "Abarroteria Copi Color",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "San Juan",
+            "ZONA": "Nuevo Vigia/Colón/San Juan/Vía Principal"
+        },
+        {
+            "Nombre": "Abarroteria Colombia",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "San Juan",
+            "ZONA": "Juan De Mostenes Arosemena/Colon/Calle Pricipal"
+        },
+        {
+            "Nombre": "Mini Super Y Carniceria La Economia",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "San Juan",
+            "ZONA": "Juan De Mostenes Arosemena/Colon/Calle Pricipal"
+        },
+        {
+            "Nombre": "Multi-Pollo Alex",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "Belisario Frías",
+            "ZONA": "San Miguelito/Belisario Frias/Cerro Batea"
+        },
+        {
+            "Nombre": "Mi Belleza",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Bocas del Toro",
+            "DISTRITO": "Changuinola",
+            "CORREGIMIENTO": "Changuinola",
+            "ZONA": "Plaza Changuinola/Bocas Del Toro/Changuinola Cabecera/Calle Principal"
+        },
+        {
+            "Nombre": "Supercentro Infiniti.",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "La Chorrera",
+            "CORREGIMIENTO": "Herrera",
+            "ZONA": "El Trapichito/Panamá Oeste/Instersección Entre Las Yayas Y Las Mendozas"
+        },
+        {
+            "Nombre": "Mini Super Y Panaderia El Crisol",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "José Domingo Espinar",
+            "ZONA": "El Crisol/Panamá/José Domingo Espinar"
+        },
+        {
+            "Nombre": "Mini Super Liah",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Arraiján",
+            "CORREGIMIENTO": "Juan Demóstenes Arosemena",
+            "ZONA": "Sector Las Villas Frente A Residencial Park Village/Panamá Oeste/Juan Demóstenes Arosemena"
+        },
+        {
+            "Nombre": "Mini Super Rio",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Puerto Pilón",
+            "ZONA": "La Rivera De Rio/Colón/Puerto Pilón"
+        },
+        {
+            "Nombre": "Store M",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Herrera",
+            "DISTRITO": "Chitré",
+            "CORREGIMIENTO": "Chitré",
+            "ZONA": "Chitré "
+        },
+        {
+            "Nombre": "Mini Super Y Carniceria Nueva Santa Librada",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "Omar Torrijos",
+            "ZONA": "Santa Librada Segunda Etapa/Panamá/Omar Torrijos"
+        },
+        {
+            "Nombre": "Mega Center",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "24 de Diciembre",
+            "ZONA": "24 de Diciembre"
+        },
+        {
+            "Nombre": "Super Centro Corona",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Mañanitas",
+            "ZONA": "Avenida De Las Americas-Frente A Leys"
+        },
+        {
+            "Nombre": "Mini Super Luis Ho",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Las Cumbres",
+            "ZONA": "Panama/Las Cumbres/Villa Milagros"
+        },
+        {
+            "Nombre": "Tienda Jireh Adonay",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Ernesto Córdoba",
+            "ZONA": "Panama/Ernesto Cordoba Campos/Calle Pincipal "
+        },
+        {
+            "Nombre": "Mini Super Gran Tonosi",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Los Santos",
+            "DISTRITO": "Tonosí",
+            "CORREGIMIENTO": "Tonosí",
+            "ZONA": "Los Santos/Tonosi/Calle Principal"
+        },
+        {
+            "Nombre": "Super Star",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "La Chorrera",
+            "CORREGIMIENTO": "Herrera",
+            "ZONA": "Panama Oeste/Chorrera/Los Guayacanes"
+        },
+        {
+            "Nombre": "Supercentro La Fortuna",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Capira",
+            "CORREGIMIENTO": "Capira",
+            "ZONA": "Panama Oeste/Capira/Calle Principal"
+        },
+        {
+            "Nombre": "Agropecuaria Los Angeles",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Chilibre",
+            "ZONA": "Panama/Chilibre/Ave. Boyd-Roosevelt"
+        },
+        {
+            "Nombre": "Mini Super Kevin Wen.",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "Arnulfo Arias",
+            "ZONA": "San Miguelito/Arnulfo Arias/Calle Principal"
+        },
+        {
+            "Nombre": "Mini Super La Garita",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Las Cumbres",
+            "ZONA": "Panama/Las Cumbres/Las Lajas"
+        },
+        {
+            "Nombre": "Mini Super Todo",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Arraiján",
+            "CORREGIMIENTO": "Veracruz",
+            "ZONA": "Arraijan/Veracruz"
+        },
+        {
+            "Nombre": "Mini Super Azaid",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "La Chorrera",
+            "CORREGIMIENTO": "Barrio Colón",
+            "ZONA": "Chorrera/Barrio Colon/Calle T Oeste"
+        },
+        {
+            "Nombre": "Mini Super Con Ventaja",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Pacora",
+            "ZONA": "Panama/Pacora/Residencia Los Cantaros"
+        },
+        {
+            "Nombre": "Mini Super Kaio",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "La Chorrera",
+            "CORREGIMIENTO": "Guadalupe",
+            "ZONA": "La Chorrera/Guadalupe/Calle 43 Sur"
+        },
+        {
+            "Nombre": "Mini Super Wang Hou",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "Arnulfo Arias",
+            "ZONA": "San Miguelito/Arnulfo Arias/Roberto Duran"
+        },
+        {
+            "Nombre": "Mini Super Elina.",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Juan Díaz",
+            "ZONA": "Ciudad Radial Final/Panamá/Juan Díaz/58-1, Local 1 Y 2"
+        },
+        {
+            "Nombre": "Mini Super Y Carniceria Ideal",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Santa Ana",
+            "ZONA": "Panamá, Santa Ana, Calle H "
+        },
+        {
+            "Nombre": "Mini Super Jacqueline",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "Arnulfo Arias",
+            "ZONA": "San Miguelito, Arnulfo Arias, Roberto Duran, Panama "
+        },
+        {
+            "Nombre": "Supermercado Y Mayorista La Estrella Roja",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Arraiján",
+            "CORREGIMIENTO": "Arraiján",
+            "ZONA": "Panama Oeste, Arraijan Cabecera, Calle Interamericana"
+        },
+        {
+            "Nombre": "Mini Super Casa Lim",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Chilibre",
+            "ZONA": "Panama, Chilibre, Via Calzada Larga, Caimitillo "
+        },
+        {
+            "Nombre": "Ms Wan 4",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Las Cumbres",
+            "ZONA": "Panama, Las Cumbres, Calle Principal, Villa Grecia "
+        },
+        {
+            "Nombre": "Minisuper Andrhe",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Las Mañanitas",
+            "ZONA": "Panama, Las Mañanitas, Los Jardines De Mananitas "
+        },
+        {
+            "Nombre": "Ms Lucky",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "La Chorrera",
+            "CORREGIMIENTO": "Guadalupe",
+            "ZONA": "La Chorrera, Guadalupe, Calle Hacia El Crematorio Viejo "
+        },
+        {
+            "Nombre": "Back To School",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Cristobal",
+            "ZONA": "Colon, Cristobal, Calle Principal, Sector De Altos De Los Lagos "
+        },
+        {
+            "Nombre": "Almacen Jordania No.2",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Chitré",
+            "DISTRITO": "Chitré",
+            "CORREGIMIENTO": "Chitré",
+            "ZONA": "Chitre Cabecera, Herrera "
+        },
+        {
+            "Nombre": "Mini Super Antonio Zhong",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Las Margaritas",
+            "ZONA": "Chepo, Las Margaritas, Calle Principal, Panama "
+        },
+        {
+            "Nombre": "Super Centro Rambo",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Arraiján",
+            "CORREGIMIENTO": "Juan Demostenes",
+            "ZONA": "Arraijan, Juan Demostenes Arosemena, Calle Principal, Panama Oeste, Tierra Bella"
+        },
+        {
+            "Nombre": "Supermercado Fuente De Agua",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "La Chorrera",
+            "CORREGIMIENTO": "Feuillet",
+            "ZONA": "La Chorrera, Feuillet, Calle Principal, Santa Rita"
+        },
+        {
+            "Nombre": "Ms Kelvin",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "Belisario Porras",
+            "ZONA": "San Miguelito, Belisario Porras, Calle Principal Sector 2, Samaria "
+        },
+        {
+            "Nombre": "Supermercado Feli Hou",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "La Chorrera",
+            "CORREGIMIENTO": "Guadalupe",
+            "ZONA": "La Chorrera, Guadalupe, Via Interamericana, La Herradura Al Frente De La Estacion Essa"
+        },
+        {
+            "Nombre": "Mini Super Linea Nueva.",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Chilibre",
+            "ZONA": "Panama, Chilibre, San Lorenzo, Calle San Andres "
+        },
+        {
+            "Nombre": "Super Caimitillo Centro",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Caimitillo",
+            "ZONA": "Panama, Chilibre, Calle Principal, Caimitillo Centro "
+        },
+        {
+            "Nombre": "Farmacia Botanica",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Rio Abajo",
+            "ZONA": "Panama, Rio Abajo, Entre Calle 13 Y 14 "
+        },
+        {
+            "Nombre": "M/S Cristina",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Las Cumbres",
+            "ZONA": "Ave. Boyd Roosevelt, Panama, Las Cumbres, San Roque "
+        },
+        {
+            "Nombre": "Super Mercado La Victoria",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Chepo",
+            "CORREGIMIENTO": "Chepo",
+            "ZONA": "Chepo, Los 4 Altos, Cordoba "
+        },
+        {
+            "Nombre": "Ibrahim Sport Shoes",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Bella Vista",
+            "ZONA": "Ave. Central"
+        },
+        {
+            "Nombre": "Super Mercado Feuillet",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "La Chorrera",
+            "CORREGIMIENTO": "Barrio Balboa",
+            "ZONA": "La Chorrera, Barrio Balboa, Calle Principal, Avenida Las Americas "
+        },
+        {
+            "Nombre": "Mini Super 168",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Tocumen",
+            "ZONA": "Panama, Tocumen, Altos Del Angel-Avenida De Los Arcangeles"
+        },
+        {
+            "Nombre": "Super Mercado El Verdadero",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "José Domingo Espinar",
+            "ZONA": "San Miguelito, Jose Domingo Espinar, Colinas De Nazareth "
+        },
+        {
+            "Nombre": "Abarroteria Linares",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Cativá",
+            "ZONA": "Colon, Cativa, Barriada 11 De Octubre "
+        },
+        {
+            "Nombre": "Abarroteria Los Caobos",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Parque Lefevre",
+            "ZONA": "Panama, Parque Lefevre, Chanis, Plaza Del Este (Dentro Del Supermercado Jumbo)"
+        },
+        {
+            "Nombre": "Super 99 Albrook",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Ancón",
+            "ZONA": "Albrook"
+        },
+        {
+            "Nombre": "Super 99 Balboa",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Parque Lefevre",
+            "ZONA": "Balboa"
+        },
+        {
+            "Nombre": "Super 99 Bethania",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Bethania",
+            "ZONA": "Bethania"
+        },
+        {
+            "Nombre": "Super 99 Brisas del Golf",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "Rufina Alfaro",
+            "ZONA": "Brisas del Golf"
+        },
+        {
+            "Nombre": "Super 99 Calidonia",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Calidonia",
+            "ZONA": "Calidonia"
+        },
+        {
+            "Nombre": "Super 99 Chanis",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Parque Lefevre",
+            "ZONA": "Chanis"
+        },
+        {
+            "Nombre": "Super 99 Condado del Rey",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Betania",
+            "ZONA": "Condado del Rey"
+        },
+        {
+            "Nombre": "Super 99 Costa Del Este",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Juan Díaz",
+            "ZONA": "Costa del Este"
+        },
+        {
+            "Nombre": "Super 99 El Dorado",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Betania",
+            "ZONA": "El Dorado"
+        },
+        {
+            "Nombre": "Super 99 El Faro",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Tocumen",
+            "ZONA": "El Faro"
+        },
+        {
+            "Nombre": "Super 99 Juan Díaz",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Juan Díaz",
+            "ZONA": "Juan Díaz"
+        },
+        {
+            "Nombre": "Super 99 La Cabima",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Alcalde Díaz",
+            "ZONA": "La Cabima"
+        },
+        {
+            "Nombre": "Super 99 La Doña",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "24 de Diciembre",
+            "ZONA": "La Doña"
+        },
+        {
+            "Nombre": "Super 99 Los Andes",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "Amelia Denis de Ycaza",
+            "ZONA": "Los Andes"
+        },
+        {
+            "Nombre": "Super 99 Los Andes Mall",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "Amelia Denis de Ycaza",
+            "ZONA": "Los Andes Mall"
+        },
+        {
+            "Nombre": "Super 99 Los Pueblos",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Juan Díaz",
+            "ZONA": "Pueblos"
+        },
+        {
+            "Nombre": "Super 99 Mañanitas",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Las Mañanitas",
+            "ZONA": "Mañanitas"
+        },
+        {
+            "Nombre": "Super 99 MegaMall",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "24 de Diciembre",
+            "ZONA": "MegaMall"
+        },
+        {
+            "Nombre": "Super 99 Paitilla",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "San Francisco",
+            "ZONA": "Paitilla"
+        },
+        {
+            "Nombre": "Super 99 Pedregal",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Pedregal",
+            "ZONA": "Pedregal"
+        },
+        {
+            "Nombre": "Super 99 Río Abajo",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Río Abajo",
+            "ZONA": "Río Abajo"
+        },
+        {
+            "Nombre": "Super 99 San Francisco",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "San Francisco",
+            "ZONA": "San Francisco"
+        },
+        {
+            "Nombre": "Super 99 Transístmica",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Belisario Porras",
+            "ZONA": "Transístmica"
+        },
+        {
+            "Nombre": "Super 99 Tumba Muerto",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Betania",
+            "ZONA": "Tumba Muerto"
+        },
+        {
+            "Nombre": "Super 99 Vía Porras",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "San Fracisco",
+            "ZONA": "Vía Porras"
+        },
+        {
+            "Nombre": "Super 99 Villa Lucre",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "José Domingo Espinar",
+            "ZONA": "Villa Lucre"
+        },
+        {
+            "Nombre": "Super 99 Villa Zaita",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Las Cumbres/Alcalde Díaz",
+            "ZONA": "Villa Zaita"
+        },
+        {
+            "Nombre": "Super 99 Vista Hermosa",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Pueblo Nuevo",
+            "ZONA": "Vista Hermosa"
+        },
+        {
+            "Nombre": "Super 99 Arraiján",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Arraiján",
+            "CORREGIMIENTO": "Nuevo Emperador",
+            "ZONA": "Arraiján"
+        },
+        {
+            "Nombre": "Super 99 Arraiján Town Center",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Arraiján",
+            "CORREGIMIENTO": "Burunga",
+            "ZONA": "Town Center Arraijan"
+        },
+        {
+            "Nombre": "Super 99 Brisas del Golf Arraiján",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Arraiján",
+            "CORREGIMIENTO": "Juan Demóstenes",
+            "ZONA": "Arraiján"
+        },
+        {
+            "Nombre": "Super 99 El Coco de la Chorrera",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "La Chorrera",
+            "CORREGIMIENTO": "El Coco",
+            "ZONA": "Chorrera"
+        },
+        {
+            "Nombre": "Super 99 La Chorrera",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "La Chorrera",
+            "ZONA": "Chorrera"
+        },
+        {
+            "Nombre": "Super 99 OnDGo Chorrera",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "La Chorrera",
+            "ZONA": "Chorrera"
+        },
+        {
+            "Nombre": "Super 99 Vacamonte",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Arraiján",
+            "CORREGIMIENTO": "Nuevo Emperador",
+            "ZONA": "Vacamonte"
+        },
+        {
+            "Nombre": "Super 99 Chitré",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Herrera",
+            "DISTRITO": "Chitré",
+            "CORREGIMIENTO": "Chitré",
+            "ZONA": "Chitré"
+        },
+        {
+            "Nombre": "Super 99 Coronado",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Chame",
+            "CORREGIMIENTO": "Chame",
+            "ZONA": "Coronado"
+        },
+        {
+            "Nombre": "Super 99 OnDGo Aguadulce",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Coclé",
+            "DISTRITO": "Aguadulce",
+            "CORREGIMIENTO": "Aguadulce",
+            "ZONA": "Aguadulce"
+        },
+        {
+            "Nombre": "Super 99 Penonomé",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Coclé",
+            "DISTRITO": "Penonomé",
+            "CORREGIMIENTO": "Penonomé",
+            "ZONA": "Penonomé"
+        },
+        {
+            "Nombre": "Super 99 Río Hato",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Coclé",
+            "DISTRITO": "Río Hato",
+            "CORREGIMIENTO": "Antón",
+            "ZONA": "Río Hato"
+        },
+        {
+            "Nombre": "Super 99 Santiago",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Veraguas",
+            "DISTRITO": "Santiago",
+            "CORREGIMIENTO": "Santiago",
+            "ZONA": "Santiago"
+        },
+        {
+            "Nombre": "Super 99 Colmar",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "ZONA": "Colmar"
+        },
+        {
+            "Nombre": "Super 99 Colón 2000",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Sabanitas",
+            "ZONA": "Colón 2000"
+        },
+        {
+            "Nombre": "Super 99 Puerto Escondido",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Sabanitas",
+            "ZONA": "Puerto Escondido"
+        },
+        {
+            "Nombre": "Super 99 Sabanitas",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Sabanitas",
+            "ZONA": "Sabanitas"
+        },
+        {
+            "Nombre": "Super 99 Bugaba",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Chiriquí",
+            "DISTRITO": "Bugaba",
+            "CORREGIMIENTO": "Bugaba",
+            "ZONA": "Bugaba"
+        },
+        {
+            "Nombre": "Super 99 David",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Chiriquí",
+            "DISTRITO": "David",
+            "CORREGIMIENTO": "David",
+            "ZONA": "David"
+        },
+        {
+            "Nombre": "Super 99 Plaza Corotú",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Chiriquí",
+            "DISTRITO": "David",
+            "CORREGIMIENTO": "Baco",
+            "ZONA": "Corotú"
+        },
+        {
+            "Nombre": "Súper Xtra Ojo de Agua",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "Omar Torrijos",
+            "ZONA": "Ojo de agua, Los Andes, Centro comercial Plaza Mayorca"
+        },
+        {
+            "Nombre": "Súper Xtra San Miguelito",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "Victoriano Lorenzo",
+            "ZONA": "San Miguelito, Transísmica, Centro Comercial Oriental Pan De Azúcar"
+        },
+        {
+            "Nombre": "Súper Xtra Condado del Rey",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Betania",
+            "ZONA": "Ave. Ricardo J. Alfaro, Centro comercial King´s Park, Edificio Xtra"
+        },
+        {
+            "Nombre": "Súper Xtra Market Villa Lucre",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "José Domingo Espinar",
+            "ZONA": "Carretera Panamericana, Plaza Villa Lucre, al lado del Do it Center"
+        },
+        {
+            "Nombre": "Súper Xtra Las Acacias",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Don Bosco",
+            "ZONA": "Urb. Altos de las Acacias, calle Domingo Díaz, Edificio Plaza Xtra"
+        },
+        {
+            "Nombre": "Súper Xtra Los Pueblos",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Juan Díaz",
+            "ZONA": "Juan Díaz, Vía José Agustín Arango, frente al Centro Comercial Los Pueblos"
+        },
+        {
+            "Nombre": "Súper Xtra Monterrico",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "24 de Diciembre",
+            "ZONA": "Urb. Monterrico, Centro Comercial Monterrico, 24 de Diciembre"
+        },
+        {
+            "Nombre": "Súper Xtra Pacora",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Pacora",
+            "ZONA": "Centro Comercial Pacora, local #2, Vía Interamericana, diagonal a la entrada de Pacora."
+        },
+        {
+            "Nombre": "Súper Xtra El Lago",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Las Cumbres",
+            "ZONA": "Las Cumbres, Vía Panamá Norte con Blvrd. El Lago, Plaza del Lago"
+        },
+        {
+            "Nombre": "Súper Xtra Albrook Mall",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Ancón",
+            "ZONA": "Albrook Mall, pasillo de la Orca, local 325"
+        },
+        {
+            "Nombre": "Súper Xtra Transísmica",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Belisario Porras",
+            "ZONA": "Edificio PH Nyso, Ave. Simón Bolívar (Transístmica), a 350, del Colegio La Salle"
+        },
+        {
+            "Nombre": "Xtra Market Chorrillo",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "El Chorrillo",
+            "ZONA": "Centro Comercial El Chorrillo, local #10, calle Avenida A"
+        },
+        {
+            "Nombre": "Feria Xtra Río Abajo",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Río Abajo",
+            "ZONA": "Plaza PH Los Yoses, Calle 16 Río Abajo"
+        },
+        {
+            "Nombre": "Maxi Feria Xtra Chepo",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Chepo",
+            "ZONA": "Chepo, Vía Puerto Coquira, diagonal a la Anam de Panamá Este"
+        },
+        {
+            "Nombre": "Xtra Market Vía Israel ",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "San Fracisco",
+            "ZONA": "San Francisco, Vía Israel, Edificio Plaza City Point, a un costado de Elmec"
+        },
+        {
+            "Nombre": "Xtra Market Villalobos",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Pedregal",
+            "ZONA": "Sobre la intersección de la calle Villalobos y el Corredor Norte, Plaza Centro Comercial Villalobos, local 18."
+        },
+        {
+            "Nombre": "Maxi Feria Xtra La Siesta",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Tocúmen",
+            "ZONA": "Plaza La Siesta, Tocumen"
+        },
+        {
+            "Nombre": "Súper Xtra Arraiján",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Arraiján",
+            "CORREGIMIENTO": "Arraiján",
+            "ZONA": "Vía Panamericana, entrada de Arraiján, Local No.1."
+        },
+        {
+            "Nombre": "Súper Xtra Vista Alegre",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Arraiján",
+            "CORREGIMIENTO": "Vista Alegre",
+            "ZONA": "Arraiján, Vista Alegre, Vía Interamericana, Edificio Plaza Xtra."
+        },
+        {
+            "Nombre": "Súper Xtra Chorrera",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "La Chorrera",
+            "CORREGIMIENTO": "Barrio Colón",
+            "ZONA": "Calle 48 sur y Vía Panamericana"
+        },
+        {
+            "Nombre": "Súper Xtra Anclas Mall",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "La Chorrera",
+            "CORREGIMIENTO": "Barrio Colón",
+            "ZONA": "Las Anclas Mall, local B-13, Carretera Interamericana, Barrio Colón."
+        },
+        {
+            "Nombre": "Xtra Market La Marquesa",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Arraiján",
+            "CORREGIMIENTO": "Juan Demóstenes Arosemena",
+            "ZONA": "Arraiján vía Chapala, Plaza La Marquesa."
+        },
+        {
+            "Nombre": "Feria Xtra Coronado",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Chame",
+            "CORREGIMIENTO": "Chame",
+            "ZONA": "Vía Interamericana, Coronado, Centro Comercial The Village, Corregimiento de Las Lajas, Distrito de Chame"
+        },
+        {
+            "Nombre": "Xtra Market Bugaba",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Chiriquí",
+            "DISTRITO": "David",
+            "CORREGIMIENTO": "Bugaba",
+            "ZONA": "Plaza Bugaba, carretera Panamericana, frente a Cochez."
+        },
+        {
+            "Nombre": "Xtra Market Sabanitas",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Sabanitas",
+            "ZONA": "Vía Panamericana, entrada de Arraiján, Local No.1."
+        },
+        {
+            "Nombre": "Súper Xtra Cativá",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Cativá",
+            "ZONA": "Plaza Cativá, Urb. San Judas Tadeo, Calle Principal."
+        },
+        {
+            "Nombre": "Xtra Market Cuatro Altos",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Colón",
+            "DISTRITO": "Colón",
+            "CORREGIMIENTO": "Cativá",
+            "ZONA": "Plaza Cuatro Altos, Av. Boyd Roosevelt Calle, Cativá"
+        },
+        {
+            "Nombre": "Súper Xtra Penonomé",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Coclé",
+            "DISTRITO": "Penonomé",
+            "CORREGIMIENTO": "Penonomé",
+            "ZONA": "Al lado de Plaza Los Naranjos, Local 11, frente al Hospital Aquilino Tejeira, Carretera Interamericana, Corregimiento de Penonomé."
+        },
+        {
+            "Nombre": "Xtra Market Santiago Plaza",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Veraguas",
+            "DISTRITO": "Santiago",
+            "CORREGIMIENTO": "Santiago",
+            "ZONA": "Calle 10, Urbanización Ave. Victoriano Lorenzo, a un costado de la Terminal de Transporte de Santiago."
+        },
+        {
+            "Nombre": "Súper Xtra Santiago Terminal",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Veraguas",
+            "DISTRITO": "Santiago",
+            "CORREGIMIENTO": "Santiago",
+            "ZONA": "Calle 10, Urbanización Ave. Victoriano Lorenzo, a un costado de la Terminal de Transporte de Santiago."
+        },
+        {
+            "Nombre": "Xtra Market Changuinola",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Bocas del Toro",
+            "DISTRITO": "Bocas del Toro",
+            "CORREGIMIENTO": "Changuinola",
+            "ZONA": "Ave. Omar Torrijos, al lado de la Policía Nacional, diagonal a la Terminal de Transporte."
+        },
+        {
+            "Nombre": "Súper Xtra Chitré",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Herrera",
+            "DISTRITO": "Chitré",
+            "CORREGIMIENTO": "Chitré",
+            "ZONA": "Azuero Terminal Plaza. Avenida Circunvalación a un costado de la Terminal de Transporte de Chitré"
+        },
+        {
+            "Nombre": "Xtra Market Las Tablas",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Los Santos",
+            "DISTRITO": "Las Tablas",
+            "CORREGIMIENTO": "Santo Domingo",
+            "ZONA": "Las Tablas Town Center, Vía Circunvalación y Ave. Emilio Castro (calle hacia Playa El Uverito)"
+        },
+        {
+            "Nombre": "Súper Xtra David",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Chiriquí",
+            "DISTRITO": "David",
+            "CORREGIMIENTO": "San Pablo Viejo",
+            "ZONA": "Urbanización San Mateo, antiguo Brisas Davideñas, Vía Panamericana."
+        },
+        {
+            "Nombre": "El Machetazo Calidonia",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Calidonia",
+            "ZONA": "Calle 28 y 29 Calidonia con Av Perú."
+        },
+        {
+            "Nombre": "El Machetazo Vía España",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Río Abajo",
+            "ZONA": "Vía España, Panamá, Panamá"
+        },
+        {
+            "Nombre": "El Machetazo Santa Ana",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Santa Ana",
+            "ZONA": "Avenida Central, Panamá, Panamá"
+        },
+        {
+            "Nombre": "El Machetazo San Miguelito",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "Victoriano Lorenzo",
+            "ZONA": "San Miguelito, Intersección de la Vía Ricardo J Alfaro (Tumba Muerto) y Transísmica"
+        },
+        {
+            "Nombre": "El Machetazo Costa Sur",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Don Bosco",
+            "ZONA": "Urbanización Costa Sur, Centro Comercial Costa Sur, Juan Díaz"
+        },
+        {
+            "Nombre": "El Machetazo Metro Mall",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "Rufina Alfaro",
+            "ZONA": "Avenida Domingo Díaz, Centro Comercial Metro Mall"
+        },
+        {
+            "Nombre": "El Machetazo Brisas del Golf",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "San Miguelito",
+            "CORREGIMIENTO": "Rufina Alfaro",
+            "ZONA": "Signature Plaza, Urbanización Brisas del Golf, Corregimiento Rufina Alfaro"
+        },
+        {
+            "Nombre": "El Machetazo Tocumen",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "Tocumen",
+            "ZONA": "Vía Panamericana, Urbanización 24 de Diciembre"
+        },
+        {
+            "Nombre": "El Machetazo Nuevo Tocumen",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá",
+            "DISTRITO": "Panamá",
+            "CORREGIMIENTO": "24 de Diciembre",
+            "ZONA": "Plaza Nuevo Tocumen, 24 de Diciembre"
+        },
+        {
+            "Nombre": "El Machetazo Arraiján",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Arraiján",
+            "CORREGIMIENTO": "Juan Demóstenes",
+            "ZONA": "Vía Panamericano, Hato Montaña"
+        },
+        {
+            "Nombre": "El Machetazo Coronado",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Panamá Oeste",
+            "DISTRITO": "Chame",
+            "CORREGIMIENTO": "Chame",
+            "ZONA": "Vía Interamericana, Plaza The Village, Coronado"
+        },
+        {
+            "Nombre": "El Machetazo Penonomé",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Coclé",
+            "DISTRITO": "Penonomé",
+            "CORREGIMIENTO": "El Coco",
+            "ZONA": "Vía Panamericana, El Coco, Llano Marín"
+        },
+        {
+            "Nombre": "El Machetazo Chitré",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Herrera",
+            "DISTRITO": "Chitré",
+            "CORREGIMIENTO": "San Juan Bautista",
+            "ZONA": "San Juan Bautista, Calle Manuel María Correa y Calle San Pedro"
+        },
+        {
+            "Nombre": "El Machetazo Santiago",
+            "PAIS": "Panamá",
+            "PROVINCIA": "Veraguas",
+            "DISTRITO": "Santiago",
+            "CORREGIMIENTO": "Santiago",
+            "ZONA": "Vía Panamericana, Centro Comercial Galeria, Santiago"
+        }
+    ]
+}
